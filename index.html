@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCU- computer science</title>
+    <style>
+        body{
+        background-color: #f5eedd;
+        color:#16587b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding:20px;
+       }
+       header{
+        background-color: #9bc1dab8;
+        width: 100%;
+        padding: 15px 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: #16587b;
+       }
+       a{
+        color:#16587b;
+        text-decoration: none;
+       }
+       a:hover{
+        color:aliceblue;
+        text-decoration: solid;
+       } 
+       main{
+         width: 90%;
+         margin: 20px auto;
+       }
+       #dep{
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 20px;
+        align-items: center;
+       }
+       #dep ul{
+        flex: 1.2;
+        line-height: 1.6;
+       }
+       #dep li{
+        flex: 1;
+        background-color: #f9f4ea;
+        border-radius: 10px;
+        padding:10px;
+        margin-bottom: 10px;
+        box-shadow:0 4px 15px rgba(0, 0, 0, 0.2);
+       }
+       #pic{
+        flex: 0.8;
+        text-align: center;
+       }
+       #pic img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 15px;
+        object-fit: cover;
+        box-shadow:0 4px 12px rgba(0,0,0,0.2);
+       }
+       figcaption {
+        font-size: 13px;
+        margin-top: 8px;
+        color: #2b7a9f;
+       }
+       .dep-container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+       }
+       .dep-card{
+        background-color: #f9f4ea;
+        padding: 15px;
+        border-radius: 10px;
+        width: 300px; 
+        text-align: center;
+        box-sizing: border-box;
+       }
+       .dep-card img {
+         width: 220px; 
+         height: 100px; 
+         object-fit: cover;
+         border-radius: 8px;
+         margin-bottom: 10px;
+         box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+       }
+       .dep-card h3 {
+         font-size: 16px;
+         margin: 8px 0;
+       }
+       .dep-card p {
+        font-size: 13px;
+         margin: 0;
+            }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to The Faculty of Computer Information</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="staff.html">Staff</a> |
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+        <h3>About Our Department</h3>
+        <div id="dep">
+            <ul>
+                <li>
+                    <p>Our department is committed to providing high-quality academic education<br> that adapts to the latest technological advancements and prepares students for the labor market.</p>
+                </li>
+                <li>
+                    <p>We offer state-of-the-art computer laboratories, distinguished faculty members, <br>and specialized training programs in software engineering and artificial intelligence.</p>
+                </li>
+            </ul>
+            <div id="pic">
+                <img src="uni.jpeg" alt="FCI bulding" width="600">
+                <figcaption>Figure 1: Main department building and computing facility.</figcaption>
+            </div>
+        </div>
+        <hr>
+        <section>
+            <h2>Academic Departments</h2>
+            <div class="dep-container">
+                <div class="dep-card">
+                    <img src="general.jpeg">
+                    <h3>General Department</h3>
+                    <p>Provides foundational courses in mathematics, logic, basic programming, and core computer science principles.</p>
+                </div>
+                <div class="dep-card">
+                    <img src="SOFT.jpeg">
+                    <h3>Software Engineering</h3>
+                    <p>Deals with building large-scale applications, system design, web development, and software testing.</p>
+                </div>
+                <div class="dep-card">
+                    <img src="ai.jpeg">
+                    <h3>Artificial Intelligence</h3>
+                    <p>Explores machine learning, neural networks, data analysis, and smart automation systems.</p>
+                </div>
+                <div class="dep-card">
+                    <img src="cyper.jpeg">
+                    <h3>Cybersecurity</h3>
+                    <p>Deals with protecting networks, systems, programs, and data from digital attacks, cyber threats, and unauthorized access.</p>
+                </div>
+            </div>
+            
+        </section>
+        <hr>
+    </main>
+       <a href="#top">Back to top</a>
+        <footer>
+        <p>&copy; 2024 Academic Department. All rights reserved.</p>
+        </footer>
+
+    </body>
